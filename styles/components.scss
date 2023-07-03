@@ -1,0 +1,42 @@
+
+// .button {
+//   display: inline-block;
+//   padding: 10px 20px;
+//   background-color: $primary-color;
+//   color: white;
+//   border-radius: 4px;
+//   text-decoration: none;
+// }
+
+.card {
+  background-color: white;
+  padding: $default-padding;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-list {
+  background-color: $list-bg-color;
+  padding: $default-padding;
+}
+
+.shopping-list-item {
+  padding: $list-item-padding;
+  // Altri stili per gli elementi della lista
+}
+
+.button {
+  background-color: $button-bg-color;
+  color: $button-text-color;
+  padding: $button-padding;
+  border-radius: $button-border-radius;
+  // Altri stili per i pulsanti
+}
+
+.search-input {
+  height: $search-input-height;
+  padding: $search-input-padding;
+  border-radius: $search-input-border-radius;
+  border: 1px solid $search-input-border-color;
+  // Altri stili per la barra di ricerca
+}
